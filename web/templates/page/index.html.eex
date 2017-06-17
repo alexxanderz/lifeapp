@@ -1,0 +1,45 @@
+<div id="buttons-container" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <button id="start-btn" type="button" class="btn">Start</button>
+            <div class="btn-group">
+                <button id="p1-btn" type="button" class="btn btn-default">P1</button>
+                <button id="p2-btn" type="button" class="btn btn-default">P2</button>
+                <button id="p3-btn" type="button" class="btn btn-default">P3</button>
+                <button id="p4-btn" type="button" class="btn btn-default">P4</button>
+            </div>
+            <div class="btn-group">
+                <button id="left-btn" type="button" class="btn btn-default"><</button>
+                <button id="up-btn" type="button" class="btn btn-default">/\</button>
+                <button id="down-btn" type="button" class="btn btn-default">\/</button>
+                <button id="right-btn" type="button" class="btn btn-default">></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="canvas-container" class="container">
+    <div class="row">
+        <div id="origin-text">(0, 0)</div>
+    </div>
+
+    <div class="row">
+        <canvas id="canvas" width="500" height="500">
+        </canvas>
+    </div>
+
+    <div class="row">
+        Gen: <span id="gen-count">0</span>, Cells: <span id="cell-count">0</span>
+    </div>
+</div>
+
+<div id="messages" class="container">
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <input id="message-input" class="form-control" />
+    </div>
+  </div>
+</div>
